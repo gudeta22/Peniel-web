@@ -7,6 +7,7 @@ import AboutPage from './pages/About.js'
 import Holyservices from './pages/Holyservices'
 import KidsPage from './pages/Kids'
 import Contact from './pages/Contact.js'
+import Donate  from './pages/Donate';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path='/Holyservices' element={<Holyservices />} exact/>
       <Route path='/Kids' element={<KidsPage />} exact/>
       <Route path ='/contact' element={<Contact />} exact/>
+      <Route path ='/donate' element={<Donate />} exact/>
     </Routes>
       
   </>

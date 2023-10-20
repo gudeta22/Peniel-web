@@ -1,10 +1,12 @@
 import React from 'react'
+import HomeComponent from '../components/HomeComponent';
+import Aboutchurch from '../components/Aboutchurch';
 
 function Home() {
   return (
-    <div className=' text-lg'>
-       
-        <h1>This is homepage</h1>
+    <div className=' text-lg lg:-my-10'>
+       <HomeComponent />
+       <Aboutchurch />
     </div>
   )
 }
