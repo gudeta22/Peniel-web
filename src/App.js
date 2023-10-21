@@ -8,6 +8,7 @@ import Holyservices from './pages/Holyservices'
 import KidsPage from './pages/Kids'
 import Contact from './pages/Contact.js'
 import Donate  from './pages/Donate';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path ='/contact' element={<Contact />} exact/>
       <Route path ='/donate' element={<Donate />} exact/>
     </Routes>
+    <Footer />
       
   </>
   );

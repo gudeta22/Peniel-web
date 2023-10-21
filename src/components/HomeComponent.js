@@ -1,5 +1,5 @@
 import React from "react";
-import bgweb from "../assets/images/cool.png";
+import bgweb from "../assets/images/bgforweb.png";
 import { Link } from "react-router-dom";
 function HomeComponent() {
   return (
