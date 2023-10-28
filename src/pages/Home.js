@@ -2,7 +2,7 @@ import React from 'react'
 import HomeComponent from '../components/HomeComponent';
 import Aboutchurch from '../components/Aboutchurch';
 import Kidscomponents from '../components/Kidscomponents';
-import Bodycomponets from '../components/Bodycomponets';
+// import Bodycomponets from '../components/Bodycomponets';
 import Youtube from '../components/Youtube';
 
 function Home() {

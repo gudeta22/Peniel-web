@@ -1,5 +1,5 @@
 import React from "react";
-import footer from "../assets/images/bg-footer.png";
+import footer from "../assets/images/bgfooter.png";
 import logo from "../assets/images/peniel.png";
 import whatapp from "../assets/images/tiktok.png";
 import linkedin from "../assets/images/youtube.png";
@@ -22,48 +22,47 @@ function Footer() {
   return (
     <div>
       <footer
-        className="relative w-full px-20 py-20 bg-fixed "
+        className="relative w-full px-20 py-20  "
         style={{
           backgroundImage: `url(${footer})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="mx-auto w-full max-w-screen-xl">
+        <div className="mx-auto w-full max-w-screen-xl text-black">
           <div className="grid grid-cols-1 gap-8 px-4 lg:py-8 md:grid-cols-3 lg:grid-cols-4">
             <div className="md:sr-only flex flex-col grow-2 w-[8rem] justify-start">
               <div className="flex select-none">
                 <img src={logo} alt="" className="w-56" />
-                <h3 className="text-4xl">Peniel International Church</h3>
+              \
               </div>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white fontstyle lg:text-lg">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black fontstyle lg:text-lg">
                 Contacts
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium md:text-sm lg:text-lg">
-                <li className="mb-4">Phone: +251-911393207</li>
-                <li className="mb-4">misikirzarchitects@gmail.com</li>
+              <ul className="text-black dark:text-black font-medium md:text-sm lg:text-lg">
+                <li className="mb-4">Phone: +251-969137151</li>
+                <li className="mb-4">PENIELCHURCH@gmail.com</li>
                 <li className="mb-4">Addis Ababa , Ethiopia</li>
               </ul>
             </div>
 
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white fontstyle lg:text-lg">
-                Designs
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black fontstyle lg:text-lg">
+                Operating Hours
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium md:text-sm lg:text-lg">
-                <li className="mb-4">Architectural design</li>
-                <li className="mb-4">Interior Design</li>
-                <li className="mb-4">Landscape Design</li>
-                
+              <ul className="text-black dark:text-black font-medium md:text-sm lg:text-lg">
+                <li className="mb-4">Sunday 5PM-8PM</li>
+                <li className="mb-4">Wednsday 5PM</li>
+               
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white fontstyle lg:text-lg">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black fontstyle lg:text-lg">
                 Services
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium md:text-sm lg:text-lg ">
+              <ul className="text-black dark:text-black font-medium md:text-sm lg:text-lg ">
                 <li className="mb-4">Remodel & Addition</li>
                 <li className="mb-4">Building Permit Preparation</li>
                 <li className="mb-4">3D Modeling and Rendering</li>
@@ -71,13 +70,13 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="container mx-auto flex flex-col md:flex-row justify-between text-white ">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between text-black ">
               <div className="sr-only md:sr-only  lg:not-sr-only flex flex-col grow lg:-my-10">
                 <div className="flex mb-0 mx-20  items-end select-none my-7">
                   <img src={logo} alt="" className="" />
                 </div>
                 <div className="flex mt-4  space-x-6 sm:justify-center md:mt-0">
-                  <a href="#/+251911393207" onClick={handleWhatsApp} className="text-gray-400 cursor-pointer">
+                  <a href="#/+251911393207" onClick={handleWhatsApp} className="text-black-400 cursor-pointer">
                     <img src={whatapp} alt="WhatsApp" width="32" height="24" />
                     <span class="sr-only">WhatsApp</span>
                   </a>
@@ -94,10 +93,10 @@ function Footer() {
             </div>
           </div>
           <div className="px-4 py-6 bg-transparent md:flex md:items-center md:justify-between my-6">
-            <span className="text-sm text-gray-500  sm:text-center">
+            <span className="text-sm text-black  sm:text-center">
                <span>© {currentYear}</span>{" "}
-              <a href="/about"  className="text-red-600 sr-only md:not-sr-only">
-                MisikrZewdu™
+              <a href="/about"  className="text-yellow-700 sr-only md:not-sr-only">
+               PENIELCHURCH™
               </a>
               . All Rights Reserved.
             </span>
