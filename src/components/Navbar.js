@@ -22,9 +22,9 @@ function Navbar() {
         
         className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-auto sm:h-auto md:h-auto bg-white   "
       >
-        <div className="max-w-7xl   sm:px-6 lg:px-8 ">
+        <div className="container max-w-7xl mx-auto  sm:px-6 lg:px-8 ">
           <div className="flex items-center    justify-between sm:h-10 h-16 lg:h-20 ">
-            <div className="flex ">
+            <div className="flex">
               <div className="flex-shrink-0   px-4">
                 <Link to="/">
                   {/* <img
@@ -106,7 +106,7 @@ function Navbar() {
 
       <div className="bg-gray-500 relative transition-all z-50 my-20 w-full  flex justify-center scroll-smooth animate-fade-down animate-ease-in  ">
         {open && (
-          <ul className="text-white  fixed  bg-slate-500 w-full -my-4  font-semibold md:hidden lg:hidden sm:hidden transform transition-all animate animate-fade-down animate-ease-linear ease-out duration-300 select-none fontstyle z-50  ">
+          <ul className="text-black border   fixed p-2  bg-white w-full -my-4  font-thin md:hidden lg:hidden sm:hidden transform transition-all animate animate-fade-down animate-ease-linear ease-out duration-300 select-none fontstyle z-50  ">
             <li className="p-1 fontstyle">
               <Link to="/" onClick={closeMenu}>
                 Home
