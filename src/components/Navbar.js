@@ -20,7 +20,7 @@ function Navbar() {
     <div className="  w-[100%]  ">
       <nav
         
-        className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-auto sm:h-auto md:h-auto bg-white   "
+        className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-[4rem] sm:h-[4rem] md:h-[4rem] bg-white   "
       >
         <div className="container max-w-7xl mx-auto  sm:px-6 lg:px-8 ">
           <div className="flex items-center    justify-between sm:h-10 h-16 lg:h-20 ">
