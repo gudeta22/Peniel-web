@@ -1,21 +1,14 @@
 import React from "react";
-import footer from "../assets/images/bgfooter.png";
+
 import logo from "../assets/images/peniel.png";
-import whatapp from "../assets/images/tiktok.png";
-import linkedin from "../assets/images/youtube.png";
+import tiktok from "../assets/images/tiktok.png";
+import youtube from "../assets/images/youtube.png";
+import telegram from '../assets/images/telegram.png'
 // import BackToTop from "./BackToTop";
 
 function Footer() {
-  const Person = {
-    phone: "+251911393207",
-  };
+  
 
-  const handleWhatsApp = () => {
-    const phoneNumber = encodeURIComponent(Person.phone);
-    const message = encodeURIComponent("Hello, I would like to get in touch.");
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
-    window.open(whatsappURL, "_blank");
-  };
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
 
@@ -76,16 +69,25 @@ function Footer() {
                   <img src={logo} alt="" className="" />
                 </div>
                 <div className="flex mt-4  space-x-6 sm:justify-center md:mt-0">
-                  <a href="#/+251911393207" onClick={handleWhatsApp} className="text-black-400 cursor-pointer">
-                    <img src={whatapp} alt="WhatsApp" width="32" height="24" />
+                  <a href="https://www.tiktok.com/@penielchurchtv" target="_blank" rel="noreferrer"  className="text-black-400 cursor-pointer">
+                    <img src={tiktok} alt="WhatsApp" width="32" height="24" />
                     <span class="sr-only">WhatsApp</span>
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/misikir-zewdu-8719ba254?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5A6TCtbGTwWLVvVi0SQIaA%3D%3D"
+                    href="https://youtube.com/@penieltv-addis2025?si=EL26reQGscleg55T"
                     class="text-gray-400"
+                    target="_blank" rel="noreferrer"
                   >
-                    <img src={linkedin} alt="WhatsApp" width="32" height="24" />
+                    <img src={youtube} alt="WhatsApp" width="32" height="24" />
+                    <span class="sr-only">WhatsApp</span>
+                  </a>
+                   <a
+                    href="https://youtube.com/@penieltv-addis2025?si=EL26reQGscleg55T"
+                    class="text-gray-400"
+                    target="_blank" rel="noreferrer"
+                  >
+                    <img src={telegram} alt="WhatsApp" width="32" height="24" />
                     <span class="sr-only">WhatsApp</span>
                   </a>
                 </div>
@@ -105,13 +107,17 @@ function Footer() {
               . All Rights Reserved.
             </span>
             <div className="flex mt-4 lg:sr-only md:not-sr-only space-x-6 sm:justify-center md:mt-0">
-              <a href="#/+251911393207" onClick={handleWhatsApp} class="text-gray-400">
-                <img src={whatapp} alt="WhatsApp" width="32" height="24" />
+              <a href="https://www.tiktok.com/@penielchurchtv" target="_blank" rel="noreferrer" class="text-gray-400">
+                <img src={tiktok} alt="WhatsApp" width="36" height="24" />
                 <span class="sr-only">WhatsApp</span>
               </a>
 
-              <a href="https://www.linkedin.com/in/misikir-zewdu-8719ba254?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5A6TCtbGTwWLVvVi0SQIaA%3D%3D" class="text-gray-400">
-                <img src={linkedin} alt="WhatsApp" width="32" height="24" />
+              <a href="https://youtube.com/@penieltv-addis2025?si=EL26reQGscleg55T" class="text-gray-400">
+                <img src={youtube} alt="WhatsApp" width="36" height="24" />
+                <span class="sr-only">WhatsApp</span>
+              </a>
+              <a href="https://t.me/Kinfegabriell" class="text-gray-400 w-10">
+                <img src={telegram} alt="WhatsApp" width="30" height="20" />
                 <span class="sr-only">WhatsApp</span>
               </a>
             </div>
