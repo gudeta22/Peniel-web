@@ -7,12 +7,12 @@ function Youtube() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the delay as needed
+    }, 3000); // Adjust the delay as needed
     return () => clearTimeout(timeout);
   }, []);
 
   return (
-    <div>
+    <div className='h-screen'>
       {isLoading ? (
         <div className="lg:mb-32  lg:grid lg:mx-80  lg:grid-cols-3 gap-20   rounded-md my-4">
           <div className='lg:h-[20rem] lg:m-10   lg:w-[28rem]   animate-pulse bg-gradient-to-r from-gray-200 to-gray-300'>
