@@ -105,7 +105,7 @@ function ContactComponent() {
           </button>
         </form>
          {alert && (
-<div className="fixed max-w-screen-sm  top-0 left-0 right-0 z-50 flex items-center m-auto lg:my-5 justify-center  p-3 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400">
+<div className="fixed max-w-screen-sm transition delay-150  top-0 left-0 right-0 z-50 flex items-center m-auto lg:my-5 justify-center  p-3 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400">
      <svg
           className="w-6 h-6 border rounded-full border-green-500 text-green-500 mr-3"
           xmlns="http://www.w3.org/2000/svg"
