@@ -5,8 +5,6 @@ import youtube from "../assets/images/youtube (1).png";
 import tiktok from '../assets/images/tiktok (1).png'
 
 
-import "../index.css";
-function Description() {
   return (
     <div className="container m-auto">
       <div className="grid grid-cols-1  lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 md:space-x-2 md:text-lg space-y-8 justify-center fontstyle text-lg my-10 ">
