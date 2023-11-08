@@ -17,7 +17,7 @@ function Description() {
                 ABOUT PASTOR KINFEGEBREL MATHEWOS
               </h2>
             </span>
-            <p className="lg:text-lg text-sm space-y-[5px]  text-[#1d2434]">
+            <p className="lg:text-lg text-sm space-y-[5px] fontstyle  text-[#1d2434]">
               Apostle Guillermo Maldonado is the senior pastor and founder of
               King Jesus International Ministry (KJM) in Miami, Florida, based
               on the Word of God, the resurrection of Jesus Christ, the moving
@@ -37,6 +37,25 @@ function Description() {
               also the founder of King Jesus University (KJU).{" "}
             </p>
             <p className="lg:text-lg text-sm  text-[#1d2434]">
+              Apostle Guillermo Maldonado is the senior pastor and founder of
+              King Jesus International Ministry (KJM) in Miami, Florida, based
+              on the Word of God, the resurrection of Jesus Christ, the moving
+              of the Holy Spirit, prayer, and worship. The building of kingdom
+              leaders and the visible manifestations of God’s supernatural power
+              distinguish this ministry. KJM is a multicultural church,
+              considered one of the fastest-growing in the United States, with a
+              membership that exceeds 25 thousand people, including the main
+              church in Miami, its branches, daughter churches, and online
+              church. Amid a visitation, Apostle Maldonado received the specific
+              assignment to bring the supernatural power of God to this
+              generation, and he fulfilled this task around the world. He is the
+              spiritual father to more than 450 churches in 70 countries,
+              including the United States, Latin America, Europe, Africa, Asia,
+              and New Zealand, which form the Supernatural Global Network (SGN),
+              representing more than 706,000 people speaking 16 languages. He is
+              also the founder of King Jesus University (KJU).{" "}
+            </p>
+              <p className="lg:text-lg text-sm  text-[#1d2434]">
               Apostle Guillermo Maldonado is the senior pastor and founder of
               King Jesus International Ministry (KJM) in Miami, Florida, based
               on the Word of God, the resurrection of Jesus Christ, the moving

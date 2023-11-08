@@ -4,6 +4,7 @@ import logo from "../assets/images/peniel.png";
 import tiktok from "../assets/images/tiktok.png";
 import youtube from "../assets/images/youtube.png";
 import telegram from '../assets/images/telegram.png'
+import BackToTop from "./BackToTop";
 // import BackToTop from "./BackToTop";
 
 function Footer() {
@@ -120,10 +121,13 @@ function Footer() {
                 <img src={telegram} alt="WhatsApp" width="30" height="20" />
                 <span class="sr-only">WhatsApp</span>
               </a>
+            
             </div>
+           
           </div>
-          {/* <BackToTop /> */}
+          <BackToTop />
         </div>
+        {/* <BackToTop /> */}
       </footer>
       
     </div>

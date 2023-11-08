@@ -18,7 +18,7 @@ function Youtube() {
  
 
   return (
-    <div className='lg:h-screen'>
+    <div className=' h-auto'>
    
        
    <div>
