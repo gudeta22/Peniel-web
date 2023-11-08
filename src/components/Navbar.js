@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import xicon from "../assets/images/close1.png";
 // import logo from "../assets/images/peniel.png";
 import NavMenuComponent from "./NavMenuComponent";
-import menu from '../assets/images/menu1.png'
+import menu from "../assets/images/menu1.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -18,10 +17,7 @@ function Navbar() {
 
   return (
     <div className="  w-[100%]  ">
-      <nav
-        
-        className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-[4rem] sm:h-[4rem] md:h-[4rem] bg-white   "
-      >
+      <nav className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-[4rem] sm:h-[4rem] md:h-[4rem] bg-white   ">
         <div className="container max-w-7xl mx-auto  sm:px-6 lg:px-8 ">
           <div className="flex items-center    justify-between sm:h-10 h-16 lg:h-20 ">
             <div className="flex">
@@ -132,7 +128,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-             <li className="p-1 fontstyle">
+            <li className="p-1 fontstyle">
               <Link to="/Donate" onClick={closeMenu}>
                 Donate
               </Link>

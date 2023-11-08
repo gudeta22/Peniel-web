@@ -53,7 +53,7 @@ function Kidscomponents() {
 
         <div className=" lg:mx-10    sm:m-auto sm:w-[450px] items-start justify-center  sm:grid grid-cols-2 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 lg:m-auto gap-[16px] md:w-[690px] lg:w-auto lg:my-14 md:my-14 m-auto ">
           {experties.map((experties, id) => (
-            <div key={id} className="group lg:-mb-40 rounded-lg relative bg-cover ">
+            <div style={{animationDelay: '.6s'}} key={id} className="group lg:-mb-40 rounded-lg relative bg-cover ">
                 {/* <img src={experties.src} alt="img" className="" /> */}
                 <div className="lg:h-[25rem] w-auto">
               <img src={experties.src} alt="img" className="w-full rounded-lg h-[20rem] duration-500   object-cover transition " />
