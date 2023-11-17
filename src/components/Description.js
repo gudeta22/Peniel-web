@@ -81,7 +81,7 @@ function Description() {
               width="900"
               height="500"
               title="Embedded YouTube Video"
-              className="lg:-my-20 lg:mx-28"
+              className="lg:-my-20 lg:mx-28 md:p-5 "
             ></iframe>
           </div>
           <div>
