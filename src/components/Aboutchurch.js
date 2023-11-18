@@ -24,10 +24,10 @@ function AboutPage() {
           </Link>
         </div>
 
-        <div className="flex  ">
+        <div className="flex ">
          
-          <div className="border   rounded-lg md:-right-[109px] md:top-4 mi:top-7 mi:right-0 lg:top-7 lg:-right-[40px]  ">
-            <img className="bg-cover border border-transparent rounded-tl-3xl rounded-br-xl " src={About2} alt="" />
+          <div className=" rounded-lg md:-right-[109px] md:top-4 mi:top-7 mi:right-0 lg:top-7 lg:-right-[40px] md:p-16   ">
+            <img className="bg-cover  border-transparent rounded-tl-3xl rounded-br-xl md:p-5 " src={About2} alt="" />
           </div>
         </div>
       </div>
