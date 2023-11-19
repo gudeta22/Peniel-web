@@ -8,16 +8,17 @@ import tiktok from '../assets/images/tiktok (1).png'
 import "../index.css";
 function Description() {
   return (
-    <div className="container m-auto">
-      <div className="grid grid-cols-1  lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 md:space-x-2 md:text-lg space-y-8 justify-center fontstyle text-lg my-10 ">
-        <div className="text-white lg:w-[95%] lg:mx-2  h-auto ">
-          <div className="p-[1rem]  lg:my-8  rounded-xl  ">
+    <div className="container m-auto b">
+      <div className="grid grid-cols-1   lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 md:space-x-2 md:text-lg space-y-8 justify-center fontstyle text-lg my-10 ">
+        <div className="text-white lg:w-[95%]  lg:mx-2  h-auto  ">
+          <div className="">
+          <div className="p-[1rem]  lg:my-8  rounded-x w-full  ">
             <span className="flex  lg:w-auto justify-center lg:mb-10   font-bold">
-              <h2 className="my-4 lg:text-4xl text-slate-950 font-bold">
+              <h2 className="my-4 lg:text-4xl font-bold  poppins f text-[#686868]">
                 ABOUT PASTOR KINFEGEBREL MATHEWOS
               </h2>
             </span>
-            <p className="lg:text-lg text-sm space-y-[5px] fontstyle  text-[#1d2434]">
+            <p className="lg:text-lg text-sm space-y-[5px] fontstyle  text-[#1d2434 ] poppins font-normal text-[#686868]">
               Apostle Guillermo Maldonado is the senior pastor and founder of
               King Jesus International Ministry (KJM) in Miami, Florida, based
               on the Word of God, the resurrection of Jesus Christ, the moving
@@ -36,7 +37,7 @@ function Description() {
               representing more than 706,000 people speaking 16 languages. He is
               also the founder of King Jesus University (KJU).{" "}
             </p>
-            <p className="lg:text-lg text-sm  text-[#1d2434]">
+            <p className="lg:text-lg text-sm   poppins font-normal text-[#686868]">
               Apostle Guillermo Maldonado is the senior pastor and founder of
               King Jesus International Ministry (KJM) in Miami, Florida, based
               on the Word of God, the resurrection of Jesus Christ, the moving
@@ -58,7 +59,8 @@ function Description() {
 
            
           </div>
-          <div className=" lg:my-24 md:w-auto w-fit flex   bg-white sm:w-auto   rounded-xl lg:h-[28rem] lg:w-auto ">
+          </div>
+          <div className=" lg:my-24 md:w-auto w-fit flex  sm:w-auto   rounded-xl lg:h-[28rem] lg:w-auto ">
             <iframe
               src="https://www.youtube.com/embed/eR8LLUxArWU" // Replace with your desired YouTube video's embed URL
               width="900"

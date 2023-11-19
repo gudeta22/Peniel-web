@@ -98,9 +98,9 @@ function Footer() {
           <div className="bg-white lg:w-[100%] lg:h-[0.1px]">
 
           </div>
-          <div className="px-4 py-6 bg-transparent md:flex md:items-center md:justify-between my-6">
-            <div className=""></div>
-            <span className="text-sm text-white  sm:text-center">
+          <div className="px-4 py-6 bg-transparent md:flex md:items-center md:space-x-16 my-6">
+            <div className=" "></div>
+            <span className="text-sm text-white   sm:text-center">
                <span>©{currentYear}</span>{" "}
               <a href="/about"  className="text-red-500 sr-only md:not-sr-only">
                PENIELCHURCH™

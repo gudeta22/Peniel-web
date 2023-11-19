@@ -57,6 +57,18 @@ function ContactComponent() {
         <form className="space-y-9" ref={form} onSubmit={sendEmail}>
           <div>
             <h2 className="text-2xl font-light">Get In Touch</h2>
+             <div class="sm:col-span-2">
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              class="block p-2.5 w-full my-10 text-sm text-gray-600 border border-gray-300 bg-gray-50  shadow-sm  dark:border-gray-300 dark:placeholder-gray-400 focus:outline-none "
+              placeholder="Your Message"
+              required
+              onChange={event => setMessage(event.target.value)}
+              value={message}
+            ></textarea>
+          </div>
 
             <div className="flex space-x-5">
               <input
@@ -82,18 +94,7 @@ function ContactComponent() {
             </div>
           </div>
 
-          <div class="sm:col-span-2">
-            <textarea
-              id="message"
-              name="message"
-              rows="6"
-              class="block p-2.5 w-full my-10 text-sm text-gray-600 border border-gray-300 bg-gray-50  shadow-sm  dark:border-gray-300 dark:placeholder-gray-400 focus:outline-none "
-              placeholder="Your Message"
-              required
-              onChange={event => setMessage(event.target.value)}
-              value={message}
-            ></textarea>
-          </div>
+         
 
           <button
             type="submit"

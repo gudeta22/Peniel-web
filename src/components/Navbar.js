@@ -16,12 +16,12 @@ function Navbar() {
   };
 
   return (
-    <div className="  w-[100%]  ">
+    <div className="  w-[100%] shadow-2xl  ">
       <nav className=" border-none w-[100%] fixed z-50 lg:-my-20 -my-20 md:-my-20   animate animate-fade-down animate-ease-linear h-auto lg:h-[4rem] sm:h-[4rem] md:h-[4rem] bg-white   ">
         <div className="container max-w-7xl mx-auto  sm:px-6 lg:px-8 ">
           <div className="flex items-center    justify-between sm:h-10 h-16 lg:h-20 ">
             <div className="flex">
-              <div className="flex-shrink-0   px-4">
+              <div className="flex-shrink-0 ">
                 <Link to="/">
                   {/* <img
                     className="lg:h-20 lg:w-20   sm:w-14 w-14"

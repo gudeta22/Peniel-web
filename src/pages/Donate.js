@@ -1,10 +1,14 @@
 import React from 'react'
+import GiveNow from '../components/GiveNow'
+
+import NavDonate from '../components/NavDonate'
 
 function Donate() {
   
   return (
-    <div className='lg:text-[10rem]'>
-        <h5>This page is under constraction</h5>
+    <div className=''>
+    <NavDonate />
+      <GiveNow />
     </div>
   )
 }
