@@ -1,6 +1,10 @@
-import React from "react";
+import React , {useEffect} from "react";
 // import footer from "../assets/images/bgfooter.png";
 function NavContact() {
+    useEffect(() => {
+    // Scroll to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []); // The empty dependency array ensures that this effect runs
   return (
     <div
       className=" bg-gray-200 w-full h-10 lg:h-[25rem] lg:-my-[6rem] px-20 py-32 flex justify-center bg-fixed "

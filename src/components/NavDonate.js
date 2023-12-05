@@ -1,6 +1,10 @@
-import React from "react";
+import React , {useEffect} from "react";
 // import footer from "../assets/images/bgfooter.png";
 function NavDonate() {
+    useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div
       className=" w-full h-10 lg:h-[25rem] lg:-my-[6rem] px-20 py-32 flex justify-center bg-fixed "
