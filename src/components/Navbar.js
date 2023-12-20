@@ -72,7 +72,7 @@ function Navbar() {
                 </Link>
                 <Link
                   to="/donate"
-                  className="px-10 p-3 flext text-black hover:bg-green-700 transition-all duration-500 bg-gradient-to-b to-white from-yellow-500 bg-size-200 bg-pos-0 hover:bg-pos-100 hover:text-black shadow-lg bg-black   rounded-md text-sm font-medium"
+                  className="px-10 p-3 flext text-black hover:bg-green-700 transition-all duration-500 bg-gradient-to-b to-yellow-600 from-yellow-500 bg-size-200 bg-pos-0 hover:bg-pos-100 hover:text-black shadow-lg bg-black   rounded-md text-sm font-medium"
                 >
                   <NavMenuComponent menu={"DONATE NOW"} />
                 
