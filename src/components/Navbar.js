@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import xicon from "../assets/images/close1.png";
-// import logo from "../assets/images/peniel.png";
+import logo from "../assets/images/peniel.png";
 import NavMenuComponent from "./NavMenuComponent";
 import menu from "../assets/images/menu1.png";
+import donate from '../assets/images/donation.png'
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -23,13 +24,13 @@ function Navbar() {
             <div className="flex">
               <div className="flex-shrink-0 ">
                 <Link to="/">
-                  {/* <img
+                  <img
                     className="lg:h-20 lg:w-20   sm:w-14 w-14"
                     src={logo}
                     alt="Logo"
                     onClick={closeMenu}
-                  /> */}
-                  <h2 className="font-bold text-lg">PENIEL CHURCH</h2>
+                  />
+                 
                 </Link>
               </div>
             </div>
@@ -71,9 +72,10 @@ function Navbar() {
                 </Link>
                 <Link
                   to="/donate"
-                  className=" group text-black   rounded-md text-sm font-medium"
+                  className="px-10 p-3 flext text-black hover:bg-green-700 transition-all duration-500 bg-gradient-to-b to-white from-yellow-500 bg-size-200 bg-pos-0 hover:bg-pos-100 hover:text-black shadow-lg bg-black   rounded-md text-sm font-medium"
                 >
-                  <NavMenuComponent menu={"Donate"} />
+                  <NavMenuComponent menu={"DONATE NOW"} />
+                
                 </Link>
               </div>
             </div>
