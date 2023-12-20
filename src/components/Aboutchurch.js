@@ -9,7 +9,7 @@ function AboutPage() {
     <div className="container m-auto">
       <div className=" px-4 grid  md:grid md:grid-cols-1 lg:grid lg:grid-cols-2 gap-6 py-36">
         <div className=" py-7 flex flex-col justify-center gap-8">
-          <span className="flex items-center  font-bold">
+          <span className="flex items-center font-mono font-bold">
             
             <p>OUR STORY</p>
           </span>

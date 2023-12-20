@@ -7,7 +7,7 @@ function NavContact() {
   }, []); // The empty dependency array ensures that this effect runs
   return (
     <div
-      className=" bg-gray-200 w-full h-10 lg:h-[25rem] lg:-my-[6rem] px-20 py-32 flex justify-center bg-fixed "
+      className="  w-full h-10 lg:h-[25rem] lg:-my-[6rem] px-20 py-32 flex justify-center bg-fixed "
       style={{
         // backgroundImage: `url(${footer})`,
         backgroundSize: "cover",

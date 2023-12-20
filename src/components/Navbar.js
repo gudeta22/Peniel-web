@@ -49,19 +49,19 @@ function Navbar() {
                   <NavMenuComponent menu={"About"} />
                 </Link>
 
-                <Link
+                {/* <Link
                   to="/Holyservices"
                   className=" group text-black   rounded-md text-sm font-medium"
                 >
                   <NavMenuComponent menu={"Holyservices"} />
-                </Link>
+                </Link> */}
 
-                <Link
+                {/* <Link
                   to="/Kids"
                   className=" group text-black   rounded-md text-sm font-medium"
                 >
                   <NavMenuComponent menu={"Kids"} />
-                </Link>
+                </Link> */}
 
                 <Link
                   to="/contact"
@@ -113,16 +113,16 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li className="p-1 fontstyle">
+            {/* <li className="p-1 fontstyle">
               <Link to="/Holyservices" onClick={closeMenu}>
                 Holyservices
               </Link>
-            </li>
-            <li className="p-1 fontstyle">
+            </li> */}
+            {/* <li className="p-1 fontstyle">
               <Link to="/Kids" onClick={closeMenu}>
                 Kids
               </Link>
-            </li>
+            </li> */}
             <li className="p-1 fontstyle">
               <Link to="/Contact" onClick={closeMenu}>
                 Contact

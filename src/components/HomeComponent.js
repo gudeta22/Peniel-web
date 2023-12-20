@@ -15,13 +15,13 @@ function HomeComponent() {
         <div className="border lg:my-40 border-transparent rounded-md flex flex-col    lg:flex-col lg:w-[75%]  bg lg:p-20 gap-6 justify-center items-center lg:h-[30rem]  ">
           <div className="lg:flex-col lg:w-auto md:w-auto lg:mx-10 m-auto mx-15 ">
             <div className="flex flex-col">
-            <h1 class=" mb-2 m-16 text-2xl md:mx-20 md:text-2xl font-extrabold leading-none tracking-tight text-white lg:text-6xl">
+            <h1 class=" font-mono mb-2 m-16 text-2xl md:mx-20 md:text-2xl font-extrabold leading-none tracking-tight text-white lg:text-6xl">
 
               Nurturing Faith, Building Community
             </h1>
             <div className="bg-white w-[10rem] lg:w-[15rem] lg:mx-20 h-1 mx-16 "></div>
             </div>
-             <p className="poppins font-normal m-10 text-white lg:mx-24">
+             <p className="font-mono font-bold m-10 text-white lg:mx-24">
            The information provided offers a glimpse into the history and ethos of Peniel International Church. Founded in 2012, the church was established by a group of forward-thinking individuals who recognized the importance of creating a place where people from various nations could gather for worship and fellowship. </p>
           </div>
            <Link to="/Contact" className="">

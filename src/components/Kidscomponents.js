@@ -44,7 +44,7 @@ function Kidscomponents() {
             
           </div>
           <div  className="w-auto h-auto">
-             <h2 className="mb-3 font-semibold fontstyle text-left text-[18px] mt-9  text-[#1d2434]  sm:text-center lg:text-4xl ">
+             <h2 className=" font-mono mb-3  text-left text-[18px] mt-9  text-[#1d2434]  sm:text-center lg:text-4xl ">
                  NURTURING KIDS THE KINGDOM OF GOD
              </h2>
           </div>

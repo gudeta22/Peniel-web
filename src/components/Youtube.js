@@ -23,7 +23,7 @@ function Youtube() {
        
    <div>
           <div className="w-auto h-auto">
-            <h2 className="mb-3 mx-6 font-semibold fontstyle text-left text-[20px] mt-9 text-[#1d2434] sm:text-center lg:text-4xl">
+            <h2 className=" font-mono mb-3 mx-6  text-left text-[20px] mt-9 text-[#1d2434] sm:text-center lg:text-4xl">
               SOME OF OUR YOUTUBE SERMONS
             </h2>
           </div>
