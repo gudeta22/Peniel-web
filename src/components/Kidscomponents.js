@@ -16,13 +16,13 @@ function Kidscomponents() {
     {
       id: 2,
       src: person2,
-      name: "Purpose",
+      name: "Vision",
       role: `Spiritual purpose for kids: Nurturing a sense of wonder, values, compassion, and connection to a higher purpose for holistic well-being.`,
     },
     {
       id: 5,
       src: person5,
-       name: "Purpose",
+       name: "Sprituality",
       role: `Spiritual purpose for kids: Nurturing a sense of wonder, values, compassion, and connection to a higher purpose for holistic well-being.`,
     },
     {

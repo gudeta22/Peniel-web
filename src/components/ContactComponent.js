@@ -18,7 +18,7 @@ function ContactComponent() {
     e.preventDefault();
     setAlert(true);
     emailjs
-      .sendForm("service_hfxwehb","template_ij8a79f",form.current,
+      .sendForm("service_3571e4t","template_ij8a79f",form.current,
         "kh1d7ovz6_5F4yZfI"
       )
       .then(

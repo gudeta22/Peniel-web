@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { TERipple } from "tw-elements-react";
- 
 
-export default function BackToTop(){
+export default function BackToTop() {
   const [showButton, setShowButton] = useState(false);
 
   const handleScroll = () => {
@@ -31,10 +30,6 @@ export default function BackToTop(){
 
   return (
     <>
-      
-    
-
-    
       {showButton && (
         <TERipple rippleColor="light">
           <button
@@ -45,7 +40,7 @@ export default function BackToTop(){
             } fixed bottom-[40px]  right-[20px] z-50 p-5 opacity-64 bg-white text-black font-medium text-xs leading-tight uppercase rounded-full shadow-md   hover:bg-black hover:text-white  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out`}
           >
             <svg
-              aria-hidden="true" 
+              aria-hidden="true"
               focusable="false"
               data-prefix="fas"
               className="lg:w-6  lg:h-6 md:w-6 md:h-6 sm:w-4 sm:h-4 w-4 h-4"
