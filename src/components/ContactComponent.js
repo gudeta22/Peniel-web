@@ -14,7 +14,12 @@ function ContactComponent() {
     setAlert(false);
   };
 
-  const sendEmail = (e) => { setEmail("");setFirstname("");setMessage("");
+  const sendEmail = (e) => { 
+    
+    setEmail("");
+    setFirstname("");
+    setMessage("");
+    
     e.preventDefault();
     setAlert(true);
     emailjs
