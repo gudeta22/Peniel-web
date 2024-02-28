@@ -24,11 +24,11 @@ function HomeComponent() {
              <p className="font-mono font-bold m-10 text-white lg:mx-24">
            The information provided offers a glimpse into the history and ethos of Peniel International Church. Founded in 2012, the church was established by a group of forward-thinking individuals who recognized the importance of creating a place where people from various nations could gather for worship and fellowship. </p>
           </div>
-           <Link to="/Contact" className="">
+           {/* <Link to="/Contact" className="">
               <button className="p-3  mx-5 w-15  md:mx-9 border border-transparent lg:p-3 lg:px-10 text-black bg-white duration-1000  hover:bg-black hover:text-white rounded-md ">
                 Contact Us{" "}
               </button>
-            </Link>
+            </Link> */}
           
           <div className="flex lg:gap-24 mb-16 ">
             
