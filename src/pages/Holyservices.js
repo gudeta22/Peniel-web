@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import Youtube from '../components/Youtube';
 
 
 function Holyservices() {
@@ -7,7 +8,7 @@ function Holyservices() {
     }, []);
   return (
     <div className=' text-red-600  '>
-        <h1>This is holy service pages</h1>
+      <Youtube />
     </div>
   )
 }
