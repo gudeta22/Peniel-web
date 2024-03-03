@@ -3,7 +3,7 @@ import React , {useEffect} from "react";
 function NavContact() {
     useEffect(() => {
     // Scroll to the top when the component mounts
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0);     
   }, []); // The empty dependency array ensures that this effect runs
   return (
     <div

@@ -21,7 +21,7 @@ function Youtube() {
     <div className=" h-auto">
       <div>
         <div className="w-auto h-auto">
-          <h2 className=" font-mono mb-3 mx-6 bg-gray-700 text-white p-10   text-left text-[20px] mt-9  sm:text-center lg:text-4xl">
+          <h2 className=" font-mono mb-3 mx-2  text-black p-5   text-left text-[20px] mt-9  sm:text-center lg:text-4xl">
             SOME OF OUR YOUTUBE SERMONS
           </h2>
         </div>
